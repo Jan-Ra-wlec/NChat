@@ -11,6 +11,8 @@ $(document).ready(function(){
 					(zeit.getHours() < 10 ? '0' + zeit.getHours() : zeit.getHours())
 					+ ':' +
 					(zeit.getMinutes() < 10 ? '0' + zeit.getMinutes() : zeit.getMinutes())
+					+ ':' + 
+					(zeit.getSeconds() < 10 ? '0' + zeit.getSeconds() : zeit.getSeconds())
 					+ '] '
 				),
 				// Name
